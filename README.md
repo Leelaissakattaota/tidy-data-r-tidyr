@@ -5,28 +5,25 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## 🌟 Project Overview
-This project demonstrates advanced data cleaning and reshaping techniques using the **Tidyverse** ecosystem in R. The goal was to transform "messy" real-world datasets—ranging from planetary metrics to global nuclear testing records—into a "tidy" format suitable for analysis and visualization.
+This project demonstrates advanced data cleaning and reshaping techniques using the **Tidyverse** ecosystem in R. The goal was to transform "messy" real-world datasets into a "tidy" format suitable for analysis and visualization.
 
 ## 🛠️ Key Skills Demonstrated
 * **Pivoting Data**: Converting between wide and long formats using `pivot_longer()` and `pivot_wider()`.
-* **Data Separation**: Using `separate_rows()` and `extract()` to handle complex strings in movie and ingredient data.
-* **Missing Value Handling**: Strategically replacing `NA` values using `replace_na()`.
-* **Visualization**: Creating publication-quality plots with `ggplot2`.
+* **Data Separation**: Using `separate_rows()` to handle complex strings in movie and ingredient data.
+* **Visualization**: Creating high-quality scatter plots with `ggplot2`.
+
+## 📈 Featured Visualization: Planetary Characteristics
+Below is the relationship between planet size and satellite count, created after tidying the `planet_wide` dataset:
+
+![Planet Plot](planet_plot.png)
+
+> **Analysis**: The plot highlights a clear correlation between planet diameter and the number of moons, with gas giants like Jupiter and Saturn dominating the chart.
 
 ## 📂 Included Datasets
-This repository contains the following datasets used in the analysis:
-* `planet-data.csv` & `planet_wide.csv`: Astronomical metrics for our solar system.
-* `nukes.csv`: Historical data on nuclear testing.
-* `netflix_data.csv`: Cast and director information for streaming content.
-* `drink.xlsx`: Complex ingredient lists for cocktail recipes.
+* `planet-data.csv`: Solar system metrics.
+* `nukes.csv`: Global nuclear testing history.
+* `netflix_data.csv`: Streaming content metadata.
+* `drink.xlsx`: Ingredient and quantity tracking.
 
-## 📈 Featured Visualization
-One of the highlights of this project is the analysis of planetary characteristics. Below is a representation of the relationship between planet size and satellite count:
-
-> **Insight**: Larger planets like Jupiter and Saturn show a significantly higher number of moons compared to smaller terrestrial planets.
-
-## 🚀 How to Run
-1. Ensure you have **R** and **RStudio** installed.
-2. Clone this repository:
-   ```bash
-   git clone [https://github.com/Leelaissakattaota/tidy-data-r-tidyr.git](https://github.com/Leelaissakattaota/tidy-data-r-tidyr.git)
+---
+Developed by **Leelaissakattaota** | 2026
