@@ -5,25 +5,27 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## 🌟 Project Overview
-This project demonstrates advanced data cleaning and reshaping techniques using the **Tidyverse** ecosystem in R. The goal was to transform "messy" real-world datasets into a "tidy" format suitable for analysis and visualization.
+This project demonstrates advanced data cleaning and reshaping techniques using the **Tidyverse** ecosystem in R. I transformed "messy" real-world datasets into a "tidy" format suitable for analysis and visualization.
 
-## 🛠️ Key Skills Demonstrated
-* **Pivoting Data**: Converting between wide and long formats using `pivot_longer()` and `pivot_wider()`.
-* **Data Separation**: Using `separate_rows()` to handle complex strings in movie and ingredient data.
-* **Visualization**: Creating high-quality scatter plots with `ggplot2`.
+## 🛠️ Key Skills
+* **Reshaping Data**: Using `pivot_longer()` and `pivot_wider()` to organize variables.
+* **String Manipulation**: Handling complex lists using `separate_rows()`.
+* **Visualization**: Creating data-driven insights with `ggplot2`.
 
-## 📈 Featured Visualization: Planetary Characteristics
-Below is the relationship between planet size and satellite count, created after tidying the `planet_wide` dataset:
+## 📈 Featured Insight: Planetary Characteristics
+After tidying the planetary dataset, I visualized the relationship between a planet's diameter and its number of moons.
 
-![Planet Plot](planet_plot.png)
+![Planet Plot](Rplot.png)
 
-> **Analysis**: The plot highlights a clear correlation between planet diameter and the number of moons, with gas giants like Jupiter and Saturn dominating the chart.
+> **Conclusion**: Larger planets, particularly gas giants like Jupiter and Saturn, exhibit a significantly higher number of natural satellites compared to smaller terrestrial planets.
 
-## 📂 Included Datasets
-* `planet-data.csv`: Solar system metrics.
-* `nukes.csv`: Global nuclear testing history.
-* `netflix_data.csv`: Streaming content metadata.
-* `drink.xlsx`: Ingredient and quantity tracking.
+## 📂 Repository Contents
+* `tidy-messy-data-using-tidyr-in-r.R`: The complete analysis script.
+* `planet_wide.csv`: Astronomical metrics.
+* `netflix_data.csv`: Streaming metadata cleaning.
+* `nukes.csv`: Historical testing records.
 
 ---
-Developed by **Leelaissakattaota** | 2026
+## 👤 Contact
+**Leelaissakattaota**
+📧 [attotaleelaissak@gmail.com](mailto:attotaleelaissak@gmail.com)
